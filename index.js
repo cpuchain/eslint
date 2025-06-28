@@ -3,7 +3,6 @@ import globals from 'globals';
 // @ts-expect-error no-types
 import html from 'eslint-plugin-html';
 import { configs as tslintConfigs } from 'typescript-eslint';
-// @ts-expect-error no-types
 import { flatConfigs } from 'eslint-plugin-import';
 import prettierRecommendedConfig from 'eslint-plugin-prettier/recommended';
 export function getConfig(htmlConfig = false, tsConfig = './tsconfig.json') {

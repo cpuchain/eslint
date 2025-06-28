@@ -1,5 +1,7 @@
 # @cpuchain/eslint
 
+[![NPM Version](https://img.shields.io/npm/v/@cpuchain/eslint)](https://www.npmjs.com/package/@cpuchain/eslint)
+
 Common ESLint config for CPUchain projects
 
 ### Install
@@ -14,7 +16,7 @@ Then use it with the following
 
 ```js
 import tseslint from 'typescript-eslint';
-import { getConfig } from './lib/index.js';
+import { getConfig } from '@cpuchain/eslint';
 
 export default tseslint.config(getConfig());
 ```
