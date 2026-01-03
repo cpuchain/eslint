@@ -1,0 +1,44 @@
+{
+    "name": "@cpuchain/eslint",
+    "version": "1.0.11",
+    "description": "Common ESLint config for CPUchain projects",
+    "license": "MIT",
+    "author": "CPUchain",
+    "type": "module",
+    "module": "index.js",
+    "types": "index.d.ts",
+    "exports": {
+        ".": "./index.js"
+    },
+    "keywords": [
+        "cpuchain"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cpuchain/eslint.git"
+    },
+    "scripts": {
+        "lint": "eslint index.ts",
+        "build": "tsc --declaration",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "eslint": "^9.39.2",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-import-resolver-typescript": "^4.4.4",
+        "eslint-plugin-html": "^8.1.3",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-prettier": "^5.5.4",
+        "fast-glob": "^3.3.3",
+        "prettier": "^3.7.4",
+        "typescript-eslint": "^8.51.0"
+    },
+    "devDependencies": {
+        "@types/node": "^25.0.3",
+        "tsc": "^2.0.4",
+        "typescript": "^5.9.3"
+    },
+    "resolutions": {
+        "fast-glob": "^3.3.3"
+    }
+}
